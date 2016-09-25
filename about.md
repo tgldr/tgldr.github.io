@@ -1,20 +1,12 @@
 ---
 layout: page
-title: About Pixyll
-permalink: /about/
+title: About Me
+permalink: /about-me/
 tags: about
 ---
 
-This Jekyll theme was crafted with <3 by [John Otander](http://johnotander.com)
-([@4lpine](https://twitter.com/4lpine)).
+Би бээр 2012 онд ХУД-ын 15-р сургууль, 2016 онд Улаанбаатар Их Сургууль (Олон Улсын Улаанбаатарын Их Сургууль)-ийг Software Engineer мэргэжлээр тус тус дүүргэсэн бөлгөө. 
 
-Checkout the [Github repository](https://github.com/johnotander/pixyll) to download it,
-request a feature, report a bug, or contribute. It's free, and open source
-([MIT](http://opensource.org/licenses/MIT)).
 
-Thanks to the following:
-
-* [BASSCSS](http://basscss.com)
-* [Jekyll](http://jekyllrb.com)
-* [Refills](http://refills.bourbon.io/)
-* [Type Scale](http://type-scale.com/)
+Хобби, бас бус
+Сагсан бөмбөг наадах дуртай, 10н жилээ төгсөхдөө сагсан бөмбөгийн 1-р зэрэг авж байсан. 2010 эсвэл 2011 оноос рубик шоог сонирхож хичээллэсэн. Зиа тэгээд хэд хэдэн уралдаан тэмцээнд орж шагнал авж байсан. Багаасаа л техник технологи сонирхож явсаар байгаад SE мэргэжилтэй болсон. 
