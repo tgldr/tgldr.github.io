@@ -39,7 +39,6 @@ Encrypt
 
 	}
 ```
-{: .line-numbers}
 
 Decrypt
 
