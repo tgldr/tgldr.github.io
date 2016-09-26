@@ -7,7 +7,8 @@ categories: Coding Java
 ---
 
 Encrypt
-{% highlight java linenos %}
+
+```java
 	package nuutslal;
 
 	import javax.swing.JOptionPane;
@@ -37,7 +38,8 @@ Encrypt
 		}
 
 	}
-{% endhighlight %}
+```
+{: .line-numbers}
 
 Decrypt
 
