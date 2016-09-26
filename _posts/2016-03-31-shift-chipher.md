@@ -8,7 +8,7 @@ categories: Coding Java
 
 Encrypt
 
-```
+```java
 package nuutslal;
 
 import javax.swing.JOptionPane;
@@ -42,7 +42,7 @@ public class Nuutslal {
 
 Decrypt
 
-```
+```java
 package nuutslal;
 
 import javax.swing.JOptionPane;

@@ -8,7 +8,7 @@ categories: Coding Java
 
 Encrypt
 
-```
+```java
 package nuutslal;
 
 import java.util.Scanner;
@@ -66,7 +66,7 @@ public class One_time_pad_enc {
 
 Decrypt
 
-```
+```java
 package nuutslal;
 
 import java.util.Scanner;
