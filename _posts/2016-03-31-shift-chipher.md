@@ -7,38 +7,37 @@ categories: Coding Java
 ---
 
 Encrypt
+{% highlight java linenos %}
+	package nuutslal;
 
-```java
-package nuutslal;
+	import javax.swing.JOptionPane;
 
-import javax.swing.JOptionPane;
+	/**
+	*
+	* @author Tuguldur
+	*/
+	public class Nuutslal {
 
-/**
-*
-* @author Tuguldur
-*/
-public class Nuutslal {
-
-	public static void main(String[] args) {
-		String s = JOptionPane.showInputDialog(“Утга оруулна уу”);
-		String l = JOptionPane.showInputDialog(“Хэдээр гүйлгэх вэ?”);
-		String k = “”;
-		int m = Integer.parseInt(l);
-		for(int i = 0; i < s.length(); i++) {
-			char c = (char)(s.charAt(i));
-			if (c >= ‘A’ && c <= ‘Z’) {
-				k += (char)((c – ‘A’ + m) % 26 + ‘A’);
-			} else if (c >= ‘a’ && c <= ‘z’) {
-				k += (char)((c – ‘a’ + m) % 26 + ‘a’);
-			} else {
-				k += c;
+		public static void main(String[] args) {
+			String s = JOptionPane.showInputDialog(“Утга оруулна уу”);
+			String l = JOptionPane.showInputDialog(“Хэдээр гүйлгэх вэ?”);
+			String k = “”;
+			int m = Integer.parseInt(l);
+			for(int i = 0; i < s.length(); i++) {
+				char c = (char)(s.charAt(i));
+				if (c >= ‘A’ && c <= ‘Z’) {
+					k += (char)((c – ‘A’ + m) % 26 + ‘A’);
+				} else if (c >= ‘a’ && c <= ‘z’) {
+					k += (char)((c – ‘a’ + m) % 26 + ‘a’);
+				} else {
+					k += c;
+				}
 			}
+			System.out.print(k);
 		}
-		System.out.print(k);
-	}
 
-}
-```
+	}
+{% endhighlight %}
 
 Decrypt
 
