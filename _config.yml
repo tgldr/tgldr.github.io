@@ -38,8 +38,8 @@ disqus_shortname:
 
 # Facebook Comments plugin
 # (leave blank to disable Facebook Comments, otherwise set it to true)
-facebook_comments:
-facebook_appid:
+facebook_comments: yes
+facebook_appid: 1155808987840248
 facebook_comments_number: 10
 
 # Social icons
