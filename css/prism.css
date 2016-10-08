@@ -214,3 +214,10 @@ pre.line-numbers > code {
 	content: attr(data-prompt);
 }
 
+.text-center{
+	text-align: center;
+}
+
+.fw-image{
+	width: 100%;
+}

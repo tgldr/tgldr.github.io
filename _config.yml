@@ -6,6 +6,7 @@ description: "Christian, Coder, Freelancer, Cuber, SG, Aquarian, Cat lover"
 baseurl:     ""
 url:         "http://tgldr.github.io"
 date_format: "%b %-d, %Y"
+og-image: "https://cloud.githubusercontent.com/assets/8258715/19209866/374b752e-8d46-11e6-9d55-e609bca241ef.jpg"
 
 # Google services
 google_verification:
@@ -19,7 +20,7 @@ bing_verification:
 # Optional features
 animated:             true
 show_related_posts:   false
-show_post_footers:    true
+show_post_footers:    false
 show_social_icons:    true
 ajaxify_contact_form: true
 enable_mathjax: false
