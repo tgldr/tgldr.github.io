@@ -18,6 +18,35 @@
   margin-top: $space-2;
 }
 
+.site-header nav ul{
+  list-style: none;
+}
+
+.site-header nav ul li:hover ul.child-menu{
+  display: block;
+}
+
+.site-header nav ul li ul.child-menu{
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  z-index: 1;
+  border: 1px solid #eee;
+  padding: 20px 40px;
+}
+
+.site-header nav > ul > li{
+  float: left;
+  position: relative;
+  padding: 0 20px;
+}
+
+.site-header nav > ul > li:last-child{
+  padding-right: 0;
+}
+
 .site-header nav a {
   color: #666;
 }

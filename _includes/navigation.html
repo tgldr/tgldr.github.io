@@ -1,10 +1,26 @@
-{% for page in site.pages %}
-    {% if page.tags contains "about" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
-{% endfor %}
-{% for page in site.pages %}
-    {% if page.tags contains "contact" %}
-        <a href="{{ page.url }}">{{ page.title }}</a>
-    {% endif %}
-{% endfor %}
+<ul>
+	<li>
+		{% for page in site.pages %}
+		    {% if page.tags contains "about" %}
+		        <a href="{{ page.url }}">{{ page.title }}</a>
+		    {% endif %}
+		{% endfor %}
+	</li>
+	<li>
+		<a href="#">Рубик</a>
+		<ul class="child-menu">
+			{% for page in site.pages %}
+			    {% if page.tags contains "notation" %}
+			        <a href="{{ page.url }}">{{ page.title }}</a>
+			    {% endif %}
+			{% endfor %}
+		</ul>
+	</li>
+	<li>
+		{% for page in site.pages %}
+		    {% if page.tags contains "contact" %}
+		        <a href="{{ page.url }}">{{ page.title }}</a>
+		    {% endif %}
+		{% endfor %}
+	</li>
+</ul>
