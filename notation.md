@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Notation
+description: Rubik's Cube Notation
 permalink: /notation/
 tags: notation
 image: https://cloud.githubusercontent.com/assets/8258715/19626953/5545a934-996f-11e6-82f0-be611ce23602.jpg
