@@ -3,6 +3,7 @@ layout: page
 title: Notation
 permalink: /notation/
 tags: notation
+image: https://cloud.githubusercontent.com/assets/8258715/19626953/5545a934-996f-11e6-82f0-be611ce23602.jpg
 ---
 
 За рубик шоо сурах гэж байгаа, сонирхож байгаа хүмүүст хэрэг болох байх.
