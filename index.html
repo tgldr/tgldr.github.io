@@ -1,28 +1,26 @@
----
-layout: default
----
-{% assign posts_count = (paginator.posts | size) %}
-
-<div class="home">
-  {% if posts_count > 0 %}
-    <div class="posts">
-      {% for post in paginator.posts %}
-        <div class="post py3">
-          <p class="post-meta">{{ post.date | date: site.date_format }}</p>
-          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link"><h3 class="h1 post-title">{{ post.title }}</h3></a>
-          <p class="post-summary">
-            {% if post.summary %}
-              {{ post.summary }}
-            {% else %}
-              {{ post.excerpt }}
-            {% endif %}
-          </p>
-        </div>
-      {% endfor %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Tuguldur UlamUndrakh - 613457</title>
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <img src="images/profile.JPG" alt="Tuguldur" class="profile-pic" />
+    <h2>Tuguldur Ulam-Undrakh</h2>
+    <div>
+      <ul class="lab-list">
+        <li>Lab 1 - Github home page</li>
+      </ul>
     </div>
+    <a
+      href="https://validator.w3.org/nu/?doc=https://tgldr.github.io/"
+      target="_blank"
+    >
+      <img src="images/w3c.png" alt="w3c" />
+    </a>
 
-    {% include pagination.html %}
-  {% else %}
-    <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
-  {% endif %}
-</div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
