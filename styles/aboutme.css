@@ -1,0 +1,65 @@
+body {
+  background-color: #00bcd4;
+  padding: 40px;
+}
+
+a {
+  color: #ffc107;
+  text-decoration: none;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+ul,
+p {
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+a:hover {
+  color: #ff5722;
+}
+
+.validators-list {
+  list-style: none;
+}
+
+.validators-list li {
+  display: inline-block;
+}
+
+.validators-list li img {
+  max-width: 100px;
+}
+
+.description h2 {
+  color: #fff;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #fafafa;
+  padding-bottom: 5px;
+  display: inline-block;
+}
+
+.description h2::first-letter {
+  float: left;
+  font-size: 56px;
+  line-height: 0.2;
+}
+
+.section-title {
+  font-size: 18px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 15px;
+}
+
+.moods-list .mood {
+  display: inline-block;
+  text-align: center;
+}
+
+.moods-list .mood img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+/*# sourceMappingURL=aboutme.css.map */
