@@ -1,0 +1,83 @@
+.main-form {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.main-form .title {
+  background: #8bc34a;
+  color: #fff;
+  padding: 5px;
+}
+
+.main-form .title span {
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 50px;
+}
+
+.main-form h4 {
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.row .col {
+  width: 48%;
+}
+
+.form-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.form-item > * {
+  width: 50%;
+}
+
+.form-item label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-item label .required {
+  color: red;
+  font-size: 12px;
+}
+
+.form-item input,
+.form-item textarea,
+.form-item input[type="checkbox"] {
+  border-radius: 0;
+  border: 1px solid #ddd;
+}
+
+.subtitle {
+  text-decoration: underline;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.footer {
+  text-align: center;
+  background-color: #ddd;
+  padding: 10px 0;
+}
+
+.footer input {
+  border-radius: 0;
+  border: none;
+  padding: 10px 25px;
+  background-color: #4caf50;
+  color: #fff;
+}
+/*# sourceMappingURL=form.css.map */
